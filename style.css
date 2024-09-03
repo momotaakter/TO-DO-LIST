@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(51, 2, 97);
+    color:Red;
+}
+.container{
+    background-color:rgba(0, 0, 0, 0.295);
+ border-radius: 10px;
+    height:auto;
+    margin: 10%;
+    padding-bottom:30px;
+  
+ 
+}
+#textarea{
+text-align:left;
+
+
+
+}
+h1{
+    text-align: center;
+    color:white;
+    text-transform: capitalize;
+    padding:20px;
+    background-color:green;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.mydiv{
+    color:white;
+    color:navy;
+    margin-left:14px;
+    display: grid;
+    column-width:100%;
+    grid-template-columns: auto;
+    line-height: 13px;
+   
+
+ 
+}
+.mydiv li{
+    color:white;
+    list-style-type:disc;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+
+}
+
+.mydiv button{
+   background-color: red;
+   padding:5px;
+   margin-top: 5px;
+
+}
+input{
+    padding:12px;
+}
+button{
+    padding:12px;
+    border: none;
+    border-radius:5px;
+    color:white;
+    text-transform: capitalize;
+ 
+ 
+}
+#delete{
+    background-color: red;
+}
+input,button{
+    margin:0 12px;
+}
+#add{
+    background-color:green;
+    text-align: center;
+}
+input::placeholder{
+    text-transform: capitalize;
+    color:black;
+}
